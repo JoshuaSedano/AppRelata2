@@ -1,0 +1,234 @@
+[
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\drawable_boton_redondeado.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\drawable\\boton_redondeado.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\menu_menu_desplegable.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\menu\\menu_desplegable.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\font_rajdhani_light.ttf.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\font\\rajdhani_light.ttf"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\drawable_logo_fb.png.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\drawable\\logo_fb.png"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\layout_item_relato.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\layout\\item_relato.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\layout_activity_leer_relatos.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\layout\\activity_leer_relatos.xml"
+    },
+    {
+        "merged": "com.joshua.joshuarelata2.app-merged_res-49:/layout_activity_home.xml.flat",
+        "source": "com.joshua.joshuarelata2.app-main-51:/layout/activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\layout_fragment_item.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\layout\\fragment_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\font_rajdhani_bold.ttf.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\font\\rajdhani_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\drawable_boton_redondeado_blanco.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\drawable\\boton_redondeado_blanco.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\drawable_img_nuevo_relato.png.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\drawable\\img_nuevo_relato.png"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\layout_activity_lectura.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\layout\\activity_lectura.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\drawable_menu.png.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\drawable\\menu.png"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\layout_fragment_agregar_usuario.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\layout\\fragment_agregar_usuario.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\drawable_logo_x.png.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\drawable\\logo_x.png"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\layout_activity_lista_relatos.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\layout\\activity_lista_relatos.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\drawable_separador.png.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\drawable\\separador.png"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\font_rajdhani_regular.ttf.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\font\\rajdhani_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\layout_activity_escribir_relato.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\layout\\activity_escribir_relato.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\layout_activity_crear_relato.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\layout\\activity_crear_relato.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\font-v26_rajdhani.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\font-v26\\rajdhani.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\drawable_logopng.png.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\drawable\\logopng.png"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\font_rajdhani_medium.ttf.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\font\\rajdhani_medium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\drawable_logo.jpg.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\drawable\\logo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\font_rajdhani_semibold.ttf.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\font\\rajdhani_semibold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\drawable_logo2.png.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\drawable\\logo2.png"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\layout_activity_crear_relato_trama.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\layout\\activity_crear_relato_trama.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\drawable_logo_google.png.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\drawable\\logo_google.png"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\drawable_img_continuar_relat.png.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\drawable\\img_continuar_relat.png"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\layout_activity_fin_relato.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\layout\\activity_fin_relato.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\layout_fragment_item_list.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\layout\\fragment_item_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\drawable_buscar.png.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\drawable\\buscar.png"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\drawable_boton_borde.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\drawable\\boton_borde.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\layout_activity_crear_relato_pjs.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\layout\\activity_crear_relato_pjs.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\drawable_pj.png.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\drawable\\pj.png"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\navigation_nav_graph2.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\navigation\\nav_graph2.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\drawable_boock.png.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\drawable\\boock.png"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\font_rajdhani.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\font\\rajdhani.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\drawable_back.png.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\drawable\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-merged_res-49:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\daemon\\8.0\\com.joshua.joshuarelata2.app-main-51:\\layout\\activity_home.xml"
+    }
+]

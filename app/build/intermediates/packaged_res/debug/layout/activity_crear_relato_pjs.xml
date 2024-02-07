@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrincipalFondo"
+    android:foregroundTint="@color/colorPrincipalFondo">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".TuActividad"
+        tools:layout_editor_absoluteX="-84dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <!-- BARRA SUPERIOR -->
+
+        <!-- LOGO -->
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="172dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="173dp"
+            android:src="@drawable/logopng"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+        <!-- CONTENIDO-->
+
+        <!-- 'INICIAR RELATO' -->
+
+        <TextView
+            android:id="@+id/etCabecera"
+            android:layout_width="276dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:fontFamily="@font/rajdhani_bold"
+            android:gravity="center"
+            android:text="¡Vamos a crear un nuevo relato!"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextoBlanco"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/txtBuscador"
+            android:layout_width="276dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:fontFamily="@font/rajdhani_regular"
+            android:inputType="text"
+            android:text="Añade un personaje:"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextoBlanco"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etCabecera"
+            tools:ignore="Autofill,HardcodedText,LabelFor,SpUsage,TextSizeCheck,TextViewEdits" />
+
+        <TextView
+            android:id="@+id/editTextText6"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="32dp"
+            android:ems="10"
+            android:fontFamily="@font/rajdhani_bold"
+            android:inputType="text"
+            android:text="Imagen y nombre:"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorTextoBlanco"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtBuscador"
+            tools:ignore="Autofill,HardcodedText,LabelFor,MissingConstraints,TextViewEdits" />
+
+        <EditText
+            android:id="@+id/txtComentario"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/boton_redondeado_blanco"
+            android:fontFamily="@font/rajdhani"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrincipalFondo"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.568"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText6"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/editTextText8"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:fontFamily="@font/rajdhani_bold"
+            android:inputType="text"
+            android:text="Descripción del personaje:"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorTextoBlanco"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.533"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtComentario"
+            tools:ignore="Autofill,HardcodedText,LabelFor,MissingConstraints,TextViewEdits" />
+
+        <EditText
+            android:id="@+id/iniciarRelatoText7"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/boton_redondeado_blanco"
+            android:fontFamily="@font/rajdhani"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrincipalFondo"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.563"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText8"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_guardar_autor"
+            android:layout_width="125dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="4dp"
+            android:text="Guardar autor/a"
+            app:layout_constraintEnd_toStartOf="@+id/btn_add_autor"
+            app:layout_constraintHorizontal_bias="0.027"
+            app:layout_constraintStart_toStartOf="@+id/iniciarRelatoText7"
+            app:layout_constraintTop_toBottomOf="@+id/iniciarRelatoText7"
+            tools:ignore="HardcodedText,DuplicateSpeakableTextCheck" />
+
+        <Button
+            android:id="@+id/btn_add_autor"
+            android:layout_width="124dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="40dp"
+            android:text="Añadir autor/a"
+            app:layout_constraintEnd_toEndOf="@+id/iniciarRelatoText7"
+            app:layout_constraintTop_toBottomOf="@+id/iniciarRelatoText7"
+            tools:ignore="HardcodedText" />
+
+        <!-- BARRA INFERIOR -->
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.521"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_guardar_autor"
+            app:srcCompat="@drawable/separador"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/btnContinuarTrama"
+            android:layout_width="258dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="16dp"
+            android:text="CONTINUAR"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8"
+            tools:ignore="HardcodedText" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="411dp"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorSecundarioClaro"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints">
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/btnBAck"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="13dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/toolbar2"
+            app:srcCompat="@drawable/back"
+            tools:ignore="ContentDescription" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

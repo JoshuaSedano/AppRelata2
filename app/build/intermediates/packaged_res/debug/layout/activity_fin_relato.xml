@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrincipalFondo"
+    android:foregroundTint="@color/colorPrincipalFondo">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".TuActividad"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="-61dp">
+        <!-- BARRA SUPERIOR -->
+
+        <!-- LOGO -->
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="172dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="173dp"
+            android:src="@drawable/logopng"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+        <!-- CONTENIDO-->
+
+        <TextView
+            android:id="@+id/etCabecera"
+            android:layout_width="276dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:fontFamily="@font/rajdhani_bold"
+            android:gravity="center"
+            android:text="¡Vamos a crear un nuevo relato!"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextoBlanco"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+        <!-- 'INICIAR RELATO' -->
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etCabecera"
+            app:srcCompat="@drawable/separador"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtComentario"
+            app:srcCompat="@drawable/separador"
+            tools:ignore="ContentDescription" />
+
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.458"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:srcCompat="@drawable/separador"
+            tools:ignore="ContentDescription,MissingConstraints" />
+
+        <EditText
+            android:id="@+id/txtComentario"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/boton_redondeado_blanco"
+            android:fontFamily="@font/rajdhani"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrincipalFondo"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText7"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields,VisualLintTextFieldSize" />
+
+        <TextView
+            android:id="@+id/txtBuscador"
+            android:layout_width="276dp"
+            android:layout_height="48dp"
+            android:fontFamily="@font/rajdhani_light"
+
+            android:gravity="center"
+            android:text="Tu relato lo continuará &quot;Usuario 2&quot;."
+            android:textAlignment="center"
+            android:textColor="@color/colorTextoBlanco"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/editTextText7"
+            android:layout_width="354dp"
+            android:layout_height="53dp"
+            android:fontFamily="@font/rajdhani_light"
+
+            android:gravity="center"
+            android:text="Deja un comentario que le sirva de guía"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextoBlanco"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtBuscador"
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/editTextText9"
+            android:layout_width="354dp"
+            android:layout_height="53dp"
+            android:ems="10"
+            android:fontFamily="@font/rajdhani_light"
+            android:inputType="text"
+            android:text="Hay algo que quieras actualizar?"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextoBlanco"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9"
+            tools:ignore="Autofill,HardcodedText,LabelFor,TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/imgTrama"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9"
+            app:srcCompat="@drawable/boock"
+            tools:ignore="ContentDescription,HardcodedText" />
+
+        <ImageView
+            android:id="@+id/imgPJ"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9"
+            app:srcCompat="@drawable/pj"
+            tools:ignore="ContentDescription" />
+
+
+        <Button
+            android:id="@+id/btnRelatoFin"
+            android:layout_width="258dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="16dp"
+            android:text="GUARDAR RELATO"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8"
+            tools:ignore="HardcodedText,MissingConstraints" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="411dp"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorSecundarioClaro"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints">
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/btnBAck"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="13dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/toolbar2"
+            app:srcCompat="@drawable/back"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rajdhani"
+            android:text="Trama"
+            android:textColor="@color/colorTextoBlanco"
+            app:layout_constraintEnd_toEndOf="@+id/imgTrama"
+            app:layout_constraintStart_toStartOf="@+id/imgTrama"
+            app:layout_constraintTop_toBottomOf="@+id/imgTrama"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rajdhani"
+            android:text="Personajes"
+            android:textColor="@color/colorTextoBlanco"
+            app:layout_constraintEnd_toEndOf="@+id/imgPJ"
+            app:layout_constraintHorizontal_bias="0.458"
+            app:layout_constraintStart_toStartOf="@+id/imgPJ"
+            app:layout_constraintTop_toBottomOf="@+id/imgPJ"
+            tools:ignore="HardcodedText" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
