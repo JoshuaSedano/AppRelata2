@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--   Color principial de fondo Azul oscuro -->
+    <color name="colorPrincipalFondo">#220158</color>
+
+    <!--  Color blanco para textos -->
+    <color name="colorTextoBlanco">#FFFFFF</color>
+
+    <!--   Color secundario Azul claro -->
+    <color name="colorSecundarioClaro">#350E75</color>
+</resources>

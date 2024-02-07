@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="31">
+        <activity
+            android:name=".ListaRelatos"
+            android:exported="false" />
+        <activity
+            android:name=".Lectura"
+            android:exported="false" />
+        <activity
+            android:name=".LeerRelatos"
+            android:exported="false"
+            android:label="@string/title_activity_leer_relatos"
+            android:theme="@style/Theme.JoshuaRelata2" />
+        <activity
+            android:name=".FinRelato"
+            android:exported="false" />
+        <activity
+            android:name=".EscribirRelato"
+            android:exported="false" />
+        <activity
+            android:name=".CrearRelatoTrama"
+            android:exported="false" />
+        <activity
+            android:name=".CrearRelatoPjs"
+            android:exported="false" />
+        <activity
+            android:name=".CrearRelato"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
