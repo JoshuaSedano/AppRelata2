@@ -9,14 +9,14 @@ class BaseDatosAPP(context: Context?, name: String?, factory: SQLiteDatabase.Cur
 ) : SQLiteOpenHelper(context, name, factory, version) {
 
 
-    val TABLE_NAME = "Usuarios"
+    //val TABLE_NAME = "Usuarios"
 
-    val create_users_table = "CREATE TABLE Usuarios"+
-            "(ID INT PRIMARY KEY," +
-            "NOMBRE TEXT," +
-            "PASSWORD TEXT)"
 
     override fun onCreate(database: SQLiteDatabase?) {
+        val create_users_table = "CREATE TABLE Usuarios"+
+                "(ID INT PRIMARY KEY ," +
+                "NOMBRE TEXT," +
+                "PASSWORD TEXT)"
 
         val insert_data_table_users= "INSERT INTO Usuarios (ID, NOMBRE, PASSWORD) VALUES (1, 'admin', 'admin')"
         database?.execSQL(create_users_table)
