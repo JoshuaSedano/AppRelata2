@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrincipalFondo"
+    android:foregroundTint="@color/colorPrincipalFondo">
+
+
+    <!-- Mitad inferior de la pantalla con color blanco -->
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/logo2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <!-- Menu de login en la parte inferior -->
+
+    <View
+        android:id="@+id/whiteView3"
+        android:layout_width="372dp"
+        android:layout_height="260dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/boton_borde"
+        android:backgroundTint="@color/colorTextoBlanco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="26dp"
+        android:autofillHints=""
+        android:background="@drawable/boton_borde"
+        android:fontFamily="@font/rajdhani"
+        android:hint="Usuario"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/whiteView3"
+        tools:ignore="HardcodedText,TextFields,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="26dp"
+        android:autofillHints=""
+        android:background="@drawable/boton_borde"
+        android:fontFamily="@font/rajdhani"
+        android:hint="Contraseña"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrincipalFondo"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usernameEditText"
+        tools:ignore="HardcodedText,TextFields,VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="80sp"
+        android:layout_height="48dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/rajdhani_bold"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordEditText"
+        tools:ignore="HardcodedText,OnClick,VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/textoRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rajdhani_bold"
+        android:gravity="center"
+        android:layout_marginTop="16sp"
+        android:text="Si no tienes usuario, crea uno aquí"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginButton" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintEnd_toEndOf="@+id/textoRegistrar"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/textoRegistrar"
+        app:srcCompat="@drawable/logo_x"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintStart_toStartOf="@+id/textoRegistrar"
+        app:layout_constraintTop_toBottomOf="@+id/textoRegistrar"
+        app:srcCompat="@drawable/logo_fb"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoRegistrar"
+        app:srcCompat="@drawable/logo_google"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/txtOlvidarPswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="He olvidado la contraseña"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="MissingConstraints" />
+
+
+    <!-- BARRA INFERIOR -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

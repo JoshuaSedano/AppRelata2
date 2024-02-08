@@ -8,194 +8,204 @@
 8        android:minSdkVersion="25"
 9        android:targetSdkVersion="34" />
 10
-11    <permission
-11-->[androidx.core:core:1.12.0] C:\Users\joshu\.gradle\caches\transforms-3\fb64bb8d49be8ef5e62369ae7d35e34e\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
-12        android:name="com.joshua.joshuarelata2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.12.0] C:\Users\joshu\.gradle\caches\transforms-3\fb64bb8d49be8ef5e62369ae7d35e34e\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
-13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.12.0] C:\Users\joshu\.gradle\caches\transforms-3\fb64bb8d49be8ef5e62369ae7d35e34e\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:5:5-81
+11-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:7:22-64
 14
-15    <uses-permission android:name="com.joshua.joshuarelata2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.12.0] C:\Users\joshu\.gradle\caches\transforms-3\fb64bb8d49be8ef5e62369ae7d35e34e\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.12.0] C:\Users\joshu\.gradle\caches\transforms-3\fb64bb8d49be8ef5e62369ae7d35e34e\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
-16
-17    <application
-17-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:5:5-53:19
-18        android:allowBackup="true"
-18-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:6:9-35
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.12.0] C:\Users\joshu\.gradle\caches\transforms-3\fb64bb8d49be8ef5e62369ae7d35e34e\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
-20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:7:9-65
-21        android:debuggable="true"
-22        android:extractNativeLibs="false"
-23        android:fullBackupContent="@xml/backup_rules"
-23-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:8:9-54
-24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:9:9-43
-25        android:label="@string/app_name"
-25-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:10:9-41
-26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:11:9-54
-27        android:supportsRtl="true"
-27-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:12:9-35
-28        android:testOnly="true"
-29        android:theme="@style/AppTheme" >
-29-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:13:9-40
-30        <activity
-30-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:15:9-17:40
-31            android:name="com.joshua.joshuarelata2.ListaRelatos"
-31-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:16:13-41
-32            android:exported="false" />
-32-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:17:13-37
-33        <activity
-33-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:18:9-20:40
-34            android:name="com.joshua.joshuarelata2.Lectura"
-34-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:19:13-36
-35            android:exported="false" />
-35-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:20:13-37
-36        <activity
-36-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:21:9-25:58
-37            android:name="com.joshua.joshuarelata2.LeerRelatos"
-37-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:22:13-40
-38            android:exported="false"
-38-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:23:13-37
-39            android:label="@string/title_activity_leer_relatos"
-39-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:24:13-64
-40            android:theme="@style/Theme.JoshuaRelata2" />
-40-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:25:13-55
-41        <activity
-41-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:26:9-28:40
-42            android:name="com.joshua.joshuarelata2.FinRelato"
-42-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:27:13-38
-43            android:exported="false" />
-43-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:28:13-37
-44        <activity
-44-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:29:9-31:40
-45            android:name="com.joshua.joshuarelata2.EscribirRelato"
-45-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:30:13-43
-46            android:exported="false" />
-46-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:31:13-37
-47        <activity
-47-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:32:9-34:40
-48            android:name="com.joshua.joshuarelata2.CrearRelatoTrama"
-48-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:33:13-45
-49            android:exported="false" />
-49-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:34:13-37
-50        <activity
-50-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:35:9-37:40
-51            android:name="com.joshua.joshuarelata2.CrearRelatoPjs"
-51-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:36:13-43
-52            android:exported="false" />
-52-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:37:13-37
-53        <activity
-53-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:38:9-40:40
-54            android:name="com.joshua.joshuarelata2.CrearRelato"
-54-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:39:13-40
-55            android:exported="false" />
-55-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:40:13-37
-56        <activity
-56-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:41:9-43:40
-57            android:name="com.joshua.joshuarelata2.HomeActivity"
-57-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:42:13-41
-58            android:exported="false" />
-58-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:43:13-37
-59        <activity
-59-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:44:9-52:20
-60            android:name="com.joshua.joshuarelata2.MainActivity"
-60-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:45:13-41
-61            android:exported="true" >
-61-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:46:13-36
-62            <intent-filter>
-62-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:47:13-51:29
-63                <action android:name="android.intent.action.MAIN" />
-63-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:48:17-69
-63-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:48:25-66
-64
-65                <category android:name="android.intent.category.LAUNCHER" />
-65-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:50:17-77
-65-->C:\Users\joshu\AndroidStudioProjects\JoshuaRelata2.1\Joshua-Relata2\app\src\main\AndroidManifest.xml:50:27-74
-66            </intent-filter>
-67        </activity>
+15    <permission
+15-->[androidx.core:core:1.12.0] C:\Users\joshu\.gradle\caches\transforms-3\fb64bb8d49be8ef5e62369ae7d35e34e\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+16        android:name="com.joshua.joshuarelata2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.12.0] C:\Users\joshu\.gradle\caches\transforms-3\fb64bb8d49be8ef5e62369ae7d35e34e\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.12.0] C:\Users\joshu\.gradle\caches\transforms-3\fb64bb8d49be8ef5e62369ae7d35e34e\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.joshua.joshuarelata2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.12.0] C:\Users\joshu\.gradle\caches\transforms-3\fb64bb8d49be8ef5e62369ae7d35e34e\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.12.0] C:\Users\joshu\.gradle\caches\transforms-3\fb64bb8d49be8ef5e62369ae7d35e34e\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:9:5-57:19
+22        android:allowBackup="true"
+22-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:10:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.12.0] C:\Users\joshu\.gradle\caches\transforms-3\fb64bb8d49be8ef5e62369ae7d35e34e\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+24        android:dataExtractionRules="@xml/data_extraction_rules"
+24-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:11:9-65
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:fullBackupContent="@xml/backup_rules"
+27-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:12:9-54
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:13:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:14:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:15:9-54
+31        android:supportsRtl="true"
+31-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:16:9-35
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme" >
+33-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:17:9-40
+34        <activity
+34-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:19:9-21:40
+35            android:name="com.joshua.joshuarelata2.ListaRelatos"
+35-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:20:13-41
+36            android:exported="false" />
+36-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:21:13-37
+37        <activity
+37-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:22:9-24:40
+38            android:name="com.joshua.joshuarelata2.Lectura"
+38-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:23:13-36
+39            android:exported="false" />
+39-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:24:13-37
+40        <activity
+40-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:25:9-29:58
+41            android:name="com.joshua.joshuarelata2.LeerRelatos"
+41-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:26:13-40
+42            android:exported="false"
+42-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:27:13-37
+43            android:label="@string/title_activity_leer_relatos"
+43-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:28:13-64
+44            android:theme="@style/Theme.JoshuaRelata2" />
+44-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:29:13-55
+45        <activity
+45-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:30:9-32:40
+46            android:name="com.joshua.joshuarelata2.FinRelato"
+46-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:31:13-38
+47            android:exported="false" />
+47-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:32:13-37
+48        <activity
+48-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:33:9-35:40
+49            android:name="com.joshua.joshuarelata2.EscribirRelato"
+49-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:34:13-43
+50            android:exported="false" />
+50-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:35:13-37
+51        <activity
+51-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:36:9-38:40
+52            android:name="com.joshua.joshuarelata2.CrearRelatoTrama"
+52-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:37:13-45
+53            android:exported="false" />
+53-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:38:13-37
+54        <activity
+54-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:39:9-41:40
+55            android:name="com.joshua.joshuarelata2.CrearRelatoPjs"
+55-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:40:13-43
+56            android:exported="false" />
+56-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:41:13-37
+57        <activity
+57-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:42:9-44:40
+58            android:name="com.joshua.joshuarelata2.CrearRelato"
+58-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:43:13-40
+59            android:exported="false" />
+59-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:44:13-37
+60        <activity
+60-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:45:9-47:40
+61            android:name="com.joshua.joshuarelata2.HomeActivity"
+61-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:46:13-41
+62            android:exported="false" />
+62-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:47:13-37
+63        <activity
+63-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:48:9-56:20
+64            android:name="com.joshua.joshuarelata2.MainActivity"
+64-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:49:13-41
+65            android:exported="true" >
+65-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:50:13-36
+66            <intent-filter>
+66-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:51:13-55:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:52:17-69
+67-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:52:25-66
 68
-69        <provider
-69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joshu\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-70            android:name="androidx.startup.InitializationProvider"
-70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joshu\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-71            android:authorities="com.joshua.joshuarelata2.androidx-startup"
-71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joshu\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-72            android:exported="false" >
-72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joshu\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-73            <meta-data
-73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joshu\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-74                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joshu\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-75                android:value="androidx.startup" />
-75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joshu\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-76            <meta-data
-76-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\joshu\.gradle\caches\transforms-3\3aeef1614e1014ecbbbc87c859fcc7f8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
-77                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-77-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\joshu\.gradle\caches\transforms-3\3aeef1614e1014ecbbbc87c859fcc7f8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
-78                android:value="androidx.startup" />
-78-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\joshu\.gradle\caches\transforms-3\3aeef1614e1014ecbbbc87c859fcc7f8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
-79            <meta-data
-79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-80                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-81                android:value="androidx.startup" />
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-82        </provider>
-83
-84        <uses-library
-84-->[androidx.window:window:1.0.0] C:\Users\joshu\.gradle\caches\transforms-3\eed22cf249e817f5b62fcf705825306d\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-85            android:name="androidx.window.extensions"
-85-->[androidx.window:window:1.0.0] C:\Users\joshu\.gradle\caches\transforms-3\eed22cf249e817f5b62fcf705825306d\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-86            android:required="false" />
-86-->[androidx.window:window:1.0.0] C:\Users\joshu\.gradle\caches\transforms-3\eed22cf249e817f5b62fcf705825306d\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-87        <uses-library
-87-->[androidx.window:window:1.0.0] C:\Users\joshu\.gradle\caches\transforms-3\eed22cf249e817f5b62fcf705825306d\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-88            android:name="androidx.window.sidecar"
-88-->[androidx.window:window:1.0.0] C:\Users\joshu\.gradle\caches\transforms-3\eed22cf249e817f5b62fcf705825306d\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-89            android:required="false" />
-89-->[androidx.window:window:1.0.0] C:\Users\joshu\.gradle\caches\transforms-3\eed22cf249e817f5b62fcf705825306d\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-90
-91        <receiver
-91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-92            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-93            android:directBootAware="false"
-93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-94            android:enabled="true"
-94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-95            android:exported="true"
-95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-96            android:permission="android.permission.DUMP" >
-96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-97            <intent-filter>
-97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-98                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-99            </intent-filter>
-100            <intent-filter>
-100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-101                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-102            </intent-filter>
-103            <intent-filter>
-103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-104                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-105            </intent-filter>
-106            <intent-filter>
-106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-107                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-108            </intent-filter>
-109        </receiver>
-110    </application>
-111
-112</manifest>
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:54:17-77
+69-->C:\Users\joshu\AndroidStudioProjects\AppRelata2\app\src\main\AndroidManifest.xml:54:27-74
+70            </intent-filter>
+71        </activity>
+72
+73        <provider
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joshu\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+74            android:name="androidx.startup.InitializationProvider"
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joshu\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+75            android:authorities="com.joshua.joshuarelata2.androidx-startup"
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joshu\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+76            android:exported="false" >
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joshu\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+77            <meta-data
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joshu\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joshu\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+79                android:value="androidx.startup" />
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joshu\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+80            <meta-data
+80-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\joshu\.gradle\caches\transforms-3\3aeef1614e1014ecbbbc87c859fcc7f8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+81-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\joshu\.gradle\caches\transforms-3\3aeef1614e1014ecbbbc87c859fcc7f8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+82                android:value="androidx.startup" />
+82-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\joshu\.gradle\caches\transforms-3\3aeef1614e1014ecbbbc87c859fcc7f8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+83            <meta-data
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+85                android:value="androidx.startup" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+86        </provider>
+87
+88        <uses-library
+88-->[androidx.window:window:1.0.0] C:\Users\joshu\.gradle\caches\transforms-3\eed22cf249e817f5b62fcf705825306d\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+89            android:name="androidx.window.extensions"
+89-->[androidx.window:window:1.0.0] C:\Users\joshu\.gradle\caches\transforms-3\eed22cf249e817f5b62fcf705825306d\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+90            android:required="false" />
+90-->[androidx.window:window:1.0.0] C:\Users\joshu\.gradle\caches\transforms-3\eed22cf249e817f5b62fcf705825306d\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+91        <uses-library
+91-->[androidx.window:window:1.0.0] C:\Users\joshu\.gradle\caches\transforms-3\eed22cf249e817f5b62fcf705825306d\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+92            android:name="androidx.window.sidecar"
+92-->[androidx.window:window:1.0.0] C:\Users\joshu\.gradle\caches\transforms-3\eed22cf249e817f5b62fcf705825306d\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+93            android:required="false" />
+93-->[androidx.window:window:1.0.0] C:\Users\joshu\.gradle\caches\transforms-3\eed22cf249e817f5b62fcf705825306d\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+94
+95        <receiver
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+96            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+97            android:directBootAware="false"
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+98            android:enabled="true"
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+99            android:exported="true"
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+100            android:permission="android.permission.DUMP" >
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+102                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+105                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+108                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+109            </intent-filter>
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+111                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joshu\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+112            </intent-filter>
+113        </receiver>
+114    </application>
+115
+116</manifest>
